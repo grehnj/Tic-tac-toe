@@ -1,7 +1,10 @@
+import random
+
 import pygame
 import sys
-import random
+from ai import Opponent
 from settings import *
+from victory import check_if_victory
 
 # initialization
 pygame.init()
@@ -12,6 +15,10 @@ x_img = pygame.image.load('graphics/x.png')
 o_img = pygame.image.load('graphics/o.png')
 pygame.display.set_caption("Joakim's Tic-tac-toe game")
 pygame.display.set_icon(icon)
+
+playing = True
+opponent = Opponent()
+
 clock = pygame.time.Clock()
 
 
@@ -24,10 +31,9 @@ def get_mouse_pos():
                 if x_positions.count(i) > 0 or o_positions.count(i) > 0:
                     return
 
-                if random.randint(0, 1):
-                    x_positions.append(i)
-                else:
-                    o_positions.append(i)
+                all_positions.append(i)
+                x_positions.append(i)
+                opponent.opponents_turn = True
 
 
 def draw_marks(position_list, image):
@@ -43,14 +49,23 @@ while True:
     draw_marks(x_positions, x_img)
     draw_marks(o_positions, o_img)
 
+    if len(all_positions) >= len(grid_pos) and playing:
+        print('IT\'S A TIE!')
+        playing = False
+
+    if opponent.opponents_turn and playing:
+        playing = opponent.place_mark()
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:  # if user clicks window close button
             pygame.quit()
             sys.exit()
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+        elif event.type == pygame.MOUSEBUTTONDOWN and playing and not opponent.opponents_turn:
             mouse_presses = pygame.mouse.get_pressed()
             if mouse_presses[0]:
                 get_mouse_pos()
+                if check_if_victory(x_positions, True):
+                    playing = False
 
     pygame.display.update()
     clock.tick(30)  # cap fps at 30
