@@ -7,37 +7,42 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="drawing.svg"
-   width="426"
-   height="426"
-   viewBox="0 0 112.7125 112.71251"
+   id="svg8"
    version="1.1"
-   id="svg8">
+   viewBox="0 0 112.7125 112.71251"
+   height="426"
+   width="426"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <title
      id="title839">Tic-tac-toe</title>
   <sodipodi:namedview
-     inkscape:current-layer="svg8"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:cy="274.30397"
-     inkscape:cx="36.379783"
-     inkscape:zoom="0.73940797"
-     units="px"
-     showgrid="false"
-     id="namedview15"
-     inkscape:window-height="1001"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     bordercolor="#666666"
+     inkscape:document-rotation="0"
      pagecolor="#ffffff"
-     inkscape:document-rotation="0" />
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview15"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="1.0456808"
+     inkscape:cx="163.87505"
+     inkscape:cy="230.23327"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-nodes="true" />
   <defs
      id="defs2" />
   <metadata
@@ -57,88 +62,88 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <rect
-     ry="0"
-     y="1.7370604e-06"
-     x="1.7370604e-06"
-     height="112.7125"
-     width="112.7125"
-     id="rect833"
-     style="fill:#f6f6d4;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round" />
   <g
-     id="g844"
-     inkscape:export-filename="D:\Python\Tic-tac-toe\graphics\grid.png"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96">
-    <rect
-       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
-       id="rect835"
-       width="3.175"
-       height="106.3625"
-       x="36.512497"
-       y="3.1750009"
-       ry="1.5260177" />
-    <rect
-       ry="1.5260177"
-       y="3.1750009"
-       x="73.025009"
-       height="106.3625"
-       width="3.1750002"
-       id="rect837"
-       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round" />
-    <rect
-       ry="1.5260177"
-       y="-109.53751"
-       x="73.025002"
-       height="106.3625"
-       width="3.1750002"
-       id="rect841"
-       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
-       transform="rotate(90)" />
-    <rect
-       transform="rotate(90)"
-       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
-       id="rect843"
-       width="3.1750002"
-       height="106.3625"
-       x="36.512501"
-       y="-109.53751"
-       ry="1.5260177" />
+     id="g864">
+    <g
+       id="g872">
+      <rect
+         style="fill:#f6f6d4;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
+         id="rect833"
+         width="112.7125"
+         height="112.7125"
+         x="1.7370604e-06"
+         y="1.7370604e-06"
+         ry="0" />
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="D:\Python\Tic-tac-toe\graphics\grid.png"
+         id="g844">
+        <rect
+           ry="1.5260177"
+           y="3.1750009"
+           x="36.512497"
+           height="106.3625"
+           width="3.175"
+           id="rect835"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
+           id="rect837"
+           width="3.1750002"
+           height="106.3625"
+           x="73.025009"
+           y="3.1750009"
+           ry="1.5260177" />
+        <rect
+           transform="rotate(90)"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
+           id="rect841"
+           width="3.1750002"
+           height="106.3625"
+           x="73.025002"
+           y="-109.53751"
+           ry="1.5260177" />
+        <rect
+           ry="1.5260177"
+           y="-109.53751"
+           x="36.512501"
+           height="106.3625"
+           width="3.1750002"
+           id="rect843"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round"
+           transform="rotate(90)" />
+      </g>
+      <path
+         id="rect859"
+         style="fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 82.602821,43.127225 c -0.756795,0 -1.513492,0.289808 -2.093389,0.869705 -1.159794,1.159792 -1.159794,3.027505 0,4.187297 l 8.172024,8.172024 -8.172024,8.172025 c -1.159794,1.159792 -1.159792,3.027505 0,4.187297 1.159799,1.159799 3.027504,1.159794 4.187296,0 l 8.172024,-8.172025 8.172028,8.172025 c 1.15979,1.159791 3.02751,1.159794 4.1873,0 1.15979,-1.159794 1.15978,-3.027505 0,-4.187297 l -8.172032,-8.172025 8.172032,-8.172024 c 1.15979,-1.159792 1.15979,-3.027497 0,-4.187297 -1.15979,-1.159791 -3.02751,-1.159794 -4.1873,0 l -8.172028,8.172025 -8.172024,-8.172025 c -0.579897,-0.579897 -1.337111,-0.869705 -2.093907,-0.869705 z" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:21.1667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 56.357229,43.127085 c -7.180735,0 -13.230144,6.047455 -13.230144,13.22819 0,7.180736 6.049409,13.230144 13.230144,13.230144 7.180735,0 13.228191,-6.049408 13.228191,-13.230144 0,-7.180735 -6.047456,-13.22819 -13.228191,-13.22819 z m 0,5.290885 c 4.258318,0 7.937306,3.678988 7.937306,7.937305 0,4.258319 -3.678988,7.937305 -7.937306,7.937305 -4.258318,0 -7.937305,-3.678986 -7.937305,-7.937305 0,-4.258317 3.678987,-7.937305 7.937305,-7.937305 z"
+         id="path844" />
+    </g>
+    <g
+       id="g849"
+       transform="translate(55.10603,-13.59759)">
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="D:\Python\Tic-tac-toe\graphics\icon.png"
+         style="fill:#ffff00;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         id="rect853"
+         width="8.4666672"
+         height="8.4666672"
+         x="-55.10603"
+         y="13.59759" />
+      <path
+         id="path855"
+         d="m -49.284999,13.597591 c -1.436146,0 -2.646029,1.209492 -2.646029,2.645638 0,1.436147 1.209883,2.646029 2.646029,2.646029 1.436147,0 2.645638,-1.209882 2.645638,-2.646029 0,-1.436146 -1.209491,-2.645638 -2.645638,-2.645638 z m 0,1.058177 c 0.851663,0 1.587461,0.735798 1.587461,1.587461 0,0.851664 -0.735798,1.587461 -1.587461,1.587461 -0.851663,0 -1.587461,-0.735797 -1.587461,-1.587461 0,-0.851663 0.735798,-1.587461 1.587461,-1.587461 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:21.1667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         d="m -54.513381,16.772618 c -0.151359,0 -0.302698,0.05797 -0.418678,0.173941 -0.231959,0.231958 -0.231959,0.605502 0,0.83746 l 1.634405,1.634403 -1.634405,1.634406 c -0.231959,0.231957 -0.231959,0.6055 0,0.83746 0.23196,0.23196 0.605501,0.231958 0.83746,0 l 1.634405,-1.634406 1.634405,1.634406 c 0.231957,0.231958 0.605502,0.231958 0.837459,0 0.231958,-0.23196 0.231957,-0.605503 0,-0.83746 l -1.634406,-1.634406 1.634406,-1.634403 c 0.231958,-0.231958 0.231958,-0.6055 0,-0.83746 -0.231957,-0.231958 -0.605502,-0.231958 -0.837459,0 l -1.634405,1.634405 -1.634405,-1.634405 c -0.115979,-0.115979 -0.267423,-0.173941 -0.418782,-0.173941 z"
+         style="fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:4.76251;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path857" />
+    </g>
   </g>
-  <g
-     style="fill:#0088aa;stroke:none;stroke-width:3.77953"
-     transform="matrix(0.26458334,0,0,0.26458334,105.03959,20.505209)"
-     id="g867"
-     inkscape:export-filename="D:\Python\Tic-tac-toe\graphics\x.png"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96">
-    <rect
-       style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect859"
-       width="22.379885"
-       height="132.12251"
-       x="-139.52982"
-       y="-2.7751985"
-       ry="11.189942"
-       transform="rotate(-45)" />
-    <rect
-       transform="rotate(45)"
-       ry="11.189942"
-       y="62.278618"
-       x="52.096115"
-       height="132.12251"
-       width="22.379885"
-       id="rect863"
-       style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <ellipse
-     style="fill:none;stroke:#ff0000;stroke-width:21.1667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-     id="path838"
-     cx="56.356251"
-     cy="56.356251"
-     rx="2.6458333"
-     ry="2.645817"
-     inkscape:export-filename="D:\Python\Tic-tac-toe\graphics\o.png"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96" />
 </svg>

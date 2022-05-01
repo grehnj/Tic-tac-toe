@@ -6,10 +6,12 @@ from settings import *
 # initialization
 pygame.init()
 screen = pygame.display.set_mode((426, 426))  # use tuple to set resolution
-pygame.display.set_caption("Joakim's Tic-tac-toe game")
+icon = pygame.image.load('graphics/icon.png')
 grid = pygame.image.load('graphics/grid.png')
 x_img = pygame.image.load('graphics/x.png')
 o_img = pygame.image.load('graphics/o.png')
+pygame.display.set_caption("Joakim's Tic-tac-toe game")
+pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 
 
