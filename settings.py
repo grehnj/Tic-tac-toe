@@ -21,6 +21,7 @@ winning_combos = (
     (2, 4, 6)
 )
 
+window_size = 426
 square_size = 126
 mark_size = 100
 size_margin = (square_size - mark_size) / 2

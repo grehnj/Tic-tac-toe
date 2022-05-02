@@ -10,7 +10,6 @@ class Opponent:
         self.move_to_square = None
         self.deciding = False
         self.opponents_turn = False
-        self.won = False
 
     def decide(self):
         available_squares = []
