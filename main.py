@@ -47,12 +47,12 @@ def draw_marks(position_list, image):
 
 def draw_text(msg):
     text_render = font_big.render(msg, True, (255, 255, 255))
-    text_rect = text_render.get_rect(center=(window_size/2, window_size/2))
+    text_rect = text_render.get_rect(center=(window_size / 2, window_size / 2))
 
     button_render = font_small.render('Play again!', True, (255, 255, 255))
-    button_rect = button_render.get_rect(center=(window_size/2, window_size/2+57))
+    button_rect = button_render.get_rect(center=(window_size / 2, window_size / 2 + 57))
 
-    bg_rect = (text_rect[0]-5, text_rect[1]-5, text_rect[2]+10, text_rect[3]+10)
+    bg_rect = (text_rect[0] - 5, text_rect[1] - 5, text_rect[2] + 10, text_rect[3] + 10)
     create_rect(text_render, text_rect, bg_rect, (247, 207, 26))
     create_rect(button_render, button_rect, interactive_rect, interactive_colors[interactive_index])
 
@@ -60,6 +60,26 @@ def draw_text(msg):
 def create_rect(render, rect, bg_rect, color):
     pygame.draw.rect(screen, color, bg_rect)
     screen.blit(render, rect)
+
+
+def check_if_button():
+    mouse_pos = pygame.mouse.get_pos()
+    if interactive_rect[0] < mouse_pos[0] < interactive_rect[0] + interactive_rect[2]:
+        if interactive_rect[1] < mouse_pos[1] < interactive_rect[1] + interactive_rect[3]:
+            return True
+    return False
+
+
+def restart_game():
+    global playing, opponent
+
+    x_positions.clear()
+    o_positions.clear()
+    all_positions.clear()
+    reset_victory()
+
+    playing = True
+    opponent = Opponent()
 
 
 # game loop
@@ -70,8 +90,7 @@ while True:
     draw_marks(x_positions, x_img)
     draw_marks(o_positions, o_img)
     if not playing:
-        mouse_pos = pygame.mouse.get_pos()
-        if interactive_rect[0] < mouse_pos[0] < interactive_rect[0] + interactive_rect[2] and interactive_rect[1] < mouse_pos[1] < interactive_rect[1] + interactive_rect[3]:
+        if check_if_button():
             interactive_index = 1
         else:
             interactive_index = 0
@@ -93,6 +112,9 @@ while True:
                 get_mouse_pos()
                 if check_if_victory(x_positions, True):
                     playing = False
+        elif event.type == pygame.MOUSEBUTTONDOWN and not playing:
+            if check_if_button():
+                restart_game()
 
     pygame.display.update()
     clock.tick(30)  # cap fps at 30

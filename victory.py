@@ -29,3 +29,10 @@ def get_result_msg():
     else:
         return 'IT\'S A TIE!'
 
+
+def reset_victory():
+    global win, lose
+
+    win = False
+    lose = False
+
