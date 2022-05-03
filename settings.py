@@ -26,6 +26,9 @@ square_size = 126
 mark_size = 100
 size_margin = (square_size - mark_size) / 2
 
+interactive_rect = (139, 251, 149, 38)
+interactive_colors = ((41, 160, 13), (53, 206, 16))
+
 x_positions = []
 o_positions = []
 all_positions = []

@@ -16,8 +16,6 @@ pygame.display.set_caption("Joakim's Tic-tac-toe game")
 pygame.display.set_icon(icon)
 font_big = pygame.font.Font('freesansbold.ttf', 38)
 font_small = pygame.font.Font('freesansbold.ttf', 26)
-interactive_rect = (139, 251, 149, 38)
-interactive_colors = ((41, 160, 13), (53, 206, 16))
 interactive_index = 0
 
 playing = True

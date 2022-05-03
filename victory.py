@@ -7,18 +7,24 @@ lose = False
 def check_if_victory(position_list, is_player):
     global win, lose
 
+    if check_positions(position_list, 3):
+        if is_player:
+            win = True
+        else:
+            lose = True
+        return True
+    else:
+        return False
+
+
+def check_positions(position_list, goal):
     for combo in winning_combos:
         matches = 0
         for number in combo:
             if position_list.count(number):
                 matches += 1
-            if matches >= 3:
-                if is_player:
-                    win = True
-                else:
-                    lose = True
+            if matches >= goal:
                 return True
-    return False
 
 
 def get_result_msg():
