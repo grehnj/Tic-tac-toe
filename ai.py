@@ -1,5 +1,5 @@
 from settings import *
-from victory import check_if_victory, check_positions
+from victory import check_if_victory
 import random
 import time
 
